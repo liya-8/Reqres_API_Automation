@@ -27,7 +27,7 @@ This project contains automated API tests for the [Reqres](https://reqres.in/) d
 
 ## Notes
 - The Reqres API does not persist users created with POST. Only static users (like ID 2) can be fetched with GET.
-- The PUT request returns a mock response and does not update real data.
+
 
 ## File Structure
 - `tests/API_testing.spec.js` - Contains all API test cases.
