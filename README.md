@@ -1,6 +1,6 @@
 # Reqres API Automation
 
-This project contains automated API tests for the [Reqres](https://reqres.in/) demo API using Playwright.
+This project contains automated API tests for the [Reqres](https://reqres.in/) demo API using Playwright with Javascript.
 
 ## Features
 - **Create a new user:**
@@ -10,6 +10,7 @@ This project contains automated API tests for the [Reqres](https://reqres.in/) d
 - **Get user details:**
   - Sends a GET request for a static user (ID 2).
   - Validates the response and checks for expected properties.
+  - Reqres API is a mock API that does not give us the option to fetch the  user details created before.
 - **Update created user:**
   - Sends a PUT request to update the user's name and job.
   - Validates the response status code (200).
@@ -17,7 +18,7 @@ This project contains automated API tests for the [Reqres](https://reqres.in/) d
 ## How to Run
 1. Install dependencies:
    ```bash
-   npm install
+   npm install playwright@latest
    ```
 2. Run the tests:
    ```bash
